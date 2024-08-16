@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowershellManager", "PowershellManager\PowershellManager.csproj", "{DD689880-537A-4895-A8C9-52E89ED20B1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowershellManager", "PowershellManager\PowershellManager.csproj", "{DD689880-537A-4895-A8C9-52E89ED20B1A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{53182FC6-AF0D-4A86-A2C6-48AD6FDB8279} = {53182FC6-AF0D-4A86-A2C6-48AD6FDB8279}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToolBox", "ToolBox\ToolBox.csproj", "{53182FC6-AF0D-4A86-A2C6-48AD6FDB8279}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{DD689880-537A-4895-A8C9-52E89ED20B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD689880-537A-4895-A8C9-52E89ED20B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD689880-537A-4895-A8C9-52E89ED20B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53182FC6-AF0D-4A86-A2C6-48AD6FDB8279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53182FC6-AF0D-4A86-A2C6-48AD6FDB8279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53182FC6-AF0D-4A86-A2C6-48AD6FDB8279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53182FC6-AF0D-4A86-A2C6-48AD6FDB8279}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
