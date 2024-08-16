@@ -139,4 +139,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, issues, or feedback, feel free to open an issue in this repository or contact the maintainer:
 
-- **GitHub**: [yourusername](https://github.com/Pallepadehat)
+- **GitHub**: [Pallepadehat](https://github.com/Pallepadehat)
